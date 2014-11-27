@@ -29,6 +29,6 @@ def __init__(self, login, password):
 
 USAGE EXAMPLE:
 testCloud = iCloud(login="email@icloud.com", password="123456"gpg")
-testCloud.authenticate()
-print (testCloud.getContactsList())
-testCloud.logout()
+testCloud.authenticate(gpg)
+print (testCloud.getContactsList(gpg))
+testCloud.logout(gpg)
